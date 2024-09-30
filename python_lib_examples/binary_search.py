@@ -1,7 +1,4 @@
-
-
-def binary_search(sorted_list: list,
-                  value: int):
+def binary_search(sorted_list: list, value: int):
     if len(sorted_list) == 0:
         return -1
     i = 0
@@ -17,6 +14,5 @@ def binary_search(sorted_list: list,
     return j
 
 
-if __name__ == '__main__':
-    l = []
+if __name__ == "__main__":
     assert binary_search([], 1) == -1

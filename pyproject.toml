@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jz-python-chest"
+version = "0.1.0"
+description = "JZ's Python Code Chest"
+authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.5"
+
+[tool.yapf]
+based_on_style = "pep8"
+column_limit = 79
+indent_width = 4
+spaces_before_comment = 2
+split_before_logical_operator = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

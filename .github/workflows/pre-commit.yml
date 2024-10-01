@@ -22,6 +22,5 @@ jobs:
           pip install poetry
           pip install pre-commit
           poetry install
-          poetry shell
           pre-commit install
           pre-commit run --all-files

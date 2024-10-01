@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jz-python-chest"
-version = "0.1.2"
+version = "0.1.3"
 description = "JZ's Python Code Chest"
 authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
 readme = "README.md"
@@ -10,6 +10,7 @@ packages = [
     { include = "leetcode" },                   # Your leetcode folder
     { include = "python_lib_examples" },        # Python library examples
     { include = "pytorch_tutorials" },          # PyTorch tutorials
+    { include = "architecture" },
 ]
 
 [tool.poetry.dependencies]

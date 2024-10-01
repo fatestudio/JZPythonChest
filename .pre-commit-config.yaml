@@ -38,7 +38,7 @@ repos:
     hooks:
       - id: sphinx-docs
         name: Generate Sphinx Documentation
-        entry: bash -c 'cd docs && poetry run sphinx-apidoc -o source ../ && make html'
+        entry: bash -c 'cd docs && sphinx-apidoc -o source ../ && make html'
         language: system
         files: '^(python_lib_examples|pytorch_tutorials|leetcode|jz_python_chest)/'
       - id: update-requirements

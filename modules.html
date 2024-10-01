@@ -7,13 +7,14 @@
 
     <title>JZPythonChest &#8212; JZPythonChest 0.1.1 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=a58bc63e"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="jz_python_chest package" href="jz_python_chest.html" />
+    <link rel="next" title="architecture package" href="architecture.html" />
     <link rel="prev" title="Welcome to JZPythonChest’s Documentation" href="index.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -36,6 +37,7 @@
 <h1>JZPythonChest<a class="headerlink" href="#jzpythonchest" title="Link to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">architecture package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jz_python_chest.html">jz_python_chest package</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#submodules">Submodules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#module-jz_python_chest.aiofiles_example">jz_python_chest.aiofiles_example module</a><ul>
@@ -61,7 +63,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#module-jz_python_chest.tqdm_example">jz_python_chest.tqdm_example module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#module-jz_python_chest.transformers_example">jz_python_chest.transformers_example module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#module-jz_python_chest.write_parquet">jz_python_chest.write_parquet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html#jz-python-chest-write-parquet-module">jz_python_chest.write_parquet module</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="leetcode.html">leetcode package</a><ul>
@@ -149,7 +151,105 @@
 <li class="toctree-l2"><a class="reference internal" href="python_lib_examples.html#module-python_lib_examples.random_example">python_lib_examples.random_example module</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pytorch_tutorials.html">pytorch_tutorials package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pytorch_tutorials.html">pytorch_tutorials package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#module-pytorch_tutorials.coco_eval">pytorch_tutorials.coco_eval module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.accumulate"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.accumulate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.prepare"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.prepare()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.prepare_for_coco_detection"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.prepare_for_coco_detection()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.prepare_for_coco_keypoint"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.prepare_for_coco_keypoint()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.prepare_for_coco_segmentation"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.prepare_for_coco_segmentation()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.summarize"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.summarize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.synchronize_between_processes"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.synchronize_between_processes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.CocoEvaluator.update"><code class="docutils literal notranslate"><span class="pre">CocoEvaluator.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.convert_to_xywh"><code class="docutils literal notranslate"><span class="pre">convert_to_xywh()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.create_common_coco_eval"><code class="docutils literal notranslate"><span class="pre">create_common_coco_eval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.evaluate"><code class="docutils literal notranslate"><span class="pre">evaluate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.coco_eval.merge"><code class="docutils literal notranslate"><span class="pre">merge()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#pytorch-tutorials-coco-utils-module">pytorch_tutorials.coco_utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#pytorch-tutorials-engine-module">pytorch_tutorials.engine module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#module-pytorch_tutorials.transforms">pytorch_tutorials.transforms module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.Compose"><code class="docutils literal notranslate"><span class="pre">Compose</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.FixedSizeCrop"><code class="docutils literal notranslate"><span class="pre">FixedSizeCrop</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.FixedSizeCrop.forward"><code class="docutils literal notranslate"><span class="pre">FixedSizeCrop.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.PILToTensor"><code class="docutils literal notranslate"><span class="pre">PILToTensor</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.PILToTensor.forward"><code class="docutils literal notranslate"><span class="pre">PILToTensor.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomHorizontalFlip"><code class="docutils literal notranslate"><span class="pre">RandomHorizontalFlip</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomHorizontalFlip.forward"><code class="docutils literal notranslate"><span class="pre">RandomHorizontalFlip.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomIoUCrop"><code class="docutils literal notranslate"><span class="pre">RandomIoUCrop</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomIoUCrop.forward"><code class="docutils literal notranslate"><span class="pre">RandomIoUCrop.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomPhotometricDistort"><code class="docutils literal notranslate"><span class="pre">RandomPhotometricDistort</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomPhotometricDistort.forward"><code class="docutils literal notranslate"><span class="pre">RandomPhotometricDistort.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomShortestSize"><code class="docutils literal notranslate"><span class="pre">RandomShortestSize</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomShortestSize.forward"><code class="docutils literal notranslate"><span class="pre">RandomShortestSize.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomZoomOut"><code class="docutils literal notranslate"><span class="pre">RandomZoomOut</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.RandomZoomOut.forward"><code class="docutils literal notranslate"><span class="pre">RandomZoomOut.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.ScaleJitter"><code class="docutils literal notranslate"><span class="pre">ScaleJitter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.ScaleJitter.forward"><code class="docutils literal notranslate"><span class="pre">ScaleJitter.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.SimpleCopyPaste"><code class="docutils literal notranslate"><span class="pre">SimpleCopyPaste</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.SimpleCopyPaste.forward"><code class="docutils literal notranslate"><span class="pre">SimpleCopyPaste.forward()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.ToDtype"><code class="docutils literal notranslate"><span class="pre">ToDtype</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.transforms.ToDtype.forward"><code class="docutils literal notranslate"><span class="pre">ToDtype.forward()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pytorch_tutorials.html#module-pytorch_tutorials.utils">pytorch_tutorials.utils module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.MetricLogger"><code class="docutils literal notranslate"><span class="pre">MetricLogger</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.MetricLogger.add_meter"><code class="docutils literal notranslate"><span class="pre">MetricLogger.add_meter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.MetricLogger.log_every"><code class="docutils literal notranslate"><span class="pre">MetricLogger.log_every()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.MetricLogger.synchronize_between_processes"><code class="docutils literal notranslate"><span class="pre">MetricLogger.synchronize_between_processes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.MetricLogger.update"><code class="docutils literal notranslate"><span class="pre">MetricLogger.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue"><code class="docutils literal notranslate"><span class="pre">SmoothedValue</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.avg"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.avg</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.global_avg"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.global_avg</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.max"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.max</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.median"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.median</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.synchronize_between_processes"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.synchronize_between_processes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.update"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.update()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.SmoothedValue.value"><code class="docutils literal notranslate"><span class="pre">SmoothedValue.value</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.all_gather"><code class="docutils literal notranslate"><span class="pre">all_gather()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.collate_fn"><code class="docutils literal notranslate"><span class="pre">collate_fn()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.get_rank"><code class="docutils literal notranslate"><span class="pre">get_rank()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.get_world_size"><code class="docutils literal notranslate"><span class="pre">get_world_size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.init_distributed_mode"><code class="docutils literal notranslate"><span class="pre">init_distributed_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.is_dist_avail_and_initialized"><code class="docutils literal notranslate"><span class="pre">is_dist_avail_and_initialized()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.is_main_process"><code class="docutils literal notranslate"><span class="pre">is_main_process()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.mkdir"><code class="docutils literal notranslate"><span class="pre">mkdir()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.reduce_dict"><code class="docutils literal notranslate"><span class="pre">reduce_dict()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.save_on_master"><code class="docutils literal notranslate"><span class="pre">save_on_master()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pytorch_tutorials.html#pytorch_tutorials.utils.setup_for_distributed"><code class="docutils literal notranslate"><span class="pre">setup_for_distributed()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </section>
@@ -170,10 +270,20 @@
 
 
 
-<h3>Navigation</h3>
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">JZPythonChest</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html">architecture package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="jz_python_chest.html">jz_python_chest package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="leetcode.html">leetcode package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_lib_examples.html">python_lib_examples package</a></li>
@@ -187,20 +297,10 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="index.html" title="previous chapter">Welcome to JZPythonChest’s Documentation</a></li>
-      <li>Next: <a href="jz_python_chest.html" title="next chapter">jz_python_chest package</a></li>
+      <li>Next: <a href="architecture.html" title="next chapter">architecture package</a></li>
   </ul></li>
 </ul>
 </div>
-<search id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</search>
-<script>document.getElementById('searchbox').style.display = "block"</script>
 
 
 
@@ -217,8 +317,8 @@
       &#169;2024, Qin (Jason) Zhou.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
       <a href="_sources/modules.rst.txt"

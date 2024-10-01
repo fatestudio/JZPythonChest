@@ -17,10 +17,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pre-commit
+      - name: Run pre-commit
         run: |
           pip install poetry
           pip install pre-commit
           poetry install
+          poetry shell
           pre-commit install
           pre-commit run --all-files

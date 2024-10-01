@@ -22,5 +22,6 @@ jobs:
           pip install poetry
           pip install pre-commit
           poetry install
+          export PATH=$(poetry env info --path)/bin:$PATH
           pre-commit install
           pre-commit run --all-files

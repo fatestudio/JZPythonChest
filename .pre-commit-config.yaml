@@ -16,6 +16,7 @@ repos:
     rev: 7.1.1
     hooks:
       - id: flake8
+        args: ["--max-line-length=120"]
 
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v3.29.1
@@ -31,3 +32,11 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
       - id: check-case-conflict
+
+  - repo: local
+    hooks:
+      - id: sphinx-docs
+        name: Generate Sphinx Documentation
+        entry: bash -c 'cd docs && sphinx-apidoc -o source ../ && make html'
+        language: system
+        files: '^(python_lib_examples|pytorch_tutorials|leetcode|jz_python_chest)/'

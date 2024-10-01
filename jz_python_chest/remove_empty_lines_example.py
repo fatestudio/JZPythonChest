@@ -2,6 +2,13 @@ import argparse
 
 
 def remove_empty_lines(input_file, output_file):
+    """
+    Remove empty lines from the input file and write the non-empty lines to the output file.
+
+    Args:
+        input_file (str): Path to the input file.
+        output_file (str): Path to the output file.
+    """
     # Open the input file for reading and output file for writing
     with open(input_file, "r") as infile, open(output_file, "w") as outfile:
         for line in infile:
@@ -11,6 +18,12 @@ def remove_empty_lines(input_file, output_file):
 
 
 def get_args():
+    """
+    Parse and return command-line arguments.
+
+    Returns:
+        argparse.Namespace: Parsed command-line arguments containing input_file and output_file paths.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--input_file",

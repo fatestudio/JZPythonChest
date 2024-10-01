@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jz-python-chest"
-version = "0.1.0"
+version = "0.1.1"
 description = "JZ's Python Code Chest"
 authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
 readme = "README.md"
@@ -8,6 +8,20 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 tqdm = "^4.66.5"
+pyarrow = "^17.0.0"
+aiohttp = "^3.10.8"
+aiofiles = "^24.1.0"
+jsonpath-ng = "^1.6.1"
+transformers = "^4.45.1"
+pandas = "^2.2.3"
+tensorflow = "2.16.2"
+torch = "2.2.2"
+torchvision = "0.17.2"
+torchaudio = "2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+sphinx-autodoc-typehints = "^2.4.4"
+sphinx = "^8.0.2"
 
 [tool.yapf]
 based_on_style = "pep8"

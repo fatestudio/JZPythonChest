@@ -71,3 +71,10 @@ dmypy.json
 
 # Windows
 Thumbs.db
+
+# Pytorch tutorial
+pytorch_tutorials/runs/
+pytorch_tutorials/data/
+pytorch_tutorials/checkpoints/
+pytorch_tutorials/model_*
+pytorch_tutorials/trace_*

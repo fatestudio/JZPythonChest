@@ -1,0 +1,45 @@
+name: Python Unit Tests
+
+# Run the workflow on every push or pull request
+on:
+  push:
+    branches:
+      - main  # Replace with your branch if necessary
+  pull_request:
+    branches:
+      - main  # Replace with your branch if necessary
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.7, 3.9, 3.12]  # Specify the Python versions you want to test against
+
+    steps:
+    # Step 1: Check out the repository code
+    - name: Check out code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up the Python environment
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    # Step 3: Install Poetry
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        export PATH="$HOME/.local/bin:$PATH"
+
+    # Step 4: Install dependencies using Poetry
+    - name: Install dependencies
+      run: |
+        poetry install
+
+    # Step 5: Run unit tests
+    - name: Run unit tests
+      run: |
+        poetry run python -m unittest discover -s tests/unittest

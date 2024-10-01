@@ -1,9 +1,16 @@
 [tool.poetry]
 name = "jz-python-chest"
-version = "0.1.1"
+version = "0.1.2"
 description = "JZ's Python Code Chest"
 authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "jz_python_chest" },            # Main package
+    { include = "docs" },                       # Documentation folder
+    { include = "leetcode" },                   # Your leetcode folder
+    { include = "python_lib_examples" },        # Python library examples
+    { include = "pytorch_tutorials" },          # PyTorch tutorials
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -20,8 +27,10 @@ torchvision = "0.17.2"
 torchaudio = "2.2.2"
 
 [tool.poetry.group.dev.dependencies]
-sphinx-autodoc-typehints = "^2.4.4"
-sphinx = "^8.0.2"
+sphinx-autodoc-typehints = "1.20.0"
+sphinx = "7.4.7"
+sphinx-rtd-theme = "2.0.0"
+poetry-plugin-export = "^1.8.0"
 
 [tool.yapf]
 based_on_style = "pep8"

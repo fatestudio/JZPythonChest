@@ -40,3 +40,8 @@ repos:
         entry: bash -c 'cd docs && sphinx-apidoc -o source ../ && make html'
         language: system
         files: '^(python_lib_examples|pytorch_tutorials|leetcode|jz_python_chest)/'
+      - id: update-requirements
+        name: Update requirements.txt from pyproject.toml
+        entry: bash -c 'poetry export --without-hashes -f requirements.txt -o requirements.txt'
+        language: system
+        pass_filenames: false

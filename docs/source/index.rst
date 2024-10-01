@@ -1,5 +1,5 @@
 Welcome to JZPythonChest's Documentation
-======================================
+========================================
 
 .. toctree::
    :maxdepth: 2

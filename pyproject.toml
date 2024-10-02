@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jz-python-chest"
-version = "0.1.4"
+version = "0.1.6"
 description = "JZ's Python Code Chest"
 authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
 readme = "README.md"
@@ -28,6 +28,8 @@ torchvision = "0.17.2"
 torchaudio = "2.2.2"
 redis = "^5.1.0"
 cachetools = "^5.5.0"
+pycocotools = "^2.0.8"
+transforms = "^0.2.1"
 
 [tool.poetry.group.dev.dependencies]
 sphinx-autodoc-typehints = "1.20.0"

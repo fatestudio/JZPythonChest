@@ -89,6 +89,22 @@ python\_lib\_examples.copy\_example module
    :undoc-members:
    :show-inheritance:
 
+python\_lib\_examples.fork\_deadlock\_simple module
+---------------------------------------------------
+
+.. automodule:: python_lib_examples.fork_deadlock_simple
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+python\_lib\_examples.functools\_lrucache module
+------------------------------------------------
+
+.. automodule:: python_lib_examples.functools_lrucache
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 python\_lib\_examples.heapq\_example module
 -------------------------------------------
 
@@ -113,6 +129,22 @@ python\_lib\_examples.multiprocess\_test module
    :undoc-members:
    :show-inheritance:
 
+python\_lib\_examples.ordered\_dict\_example module
+---------------------------------------------------
+
+.. automodule:: python_lib_examples.ordered_dict_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+python\_lib\_examples.ordered\_dict\_lru\_cache module
+------------------------------------------------------
+
+.. automodule:: python_lib_examples.ordered_dict_lru_cache
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 python\_lib\_examples.pathlib\_example module
 ---------------------------------------------
 
@@ -121,10 +153,42 @@ python\_lib\_examples.pathlib\_example module
    :undoc-members:
    :show-inheritance:
 
+python\_lib\_examples.pool\_deadlock module
+-------------------------------------------
+
+.. automodule:: python_lib_examples.pool_deadlock
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 python\_lib\_examples.random\_example module
 --------------------------------------------
 
 .. automodule:: python_lib_examples.random_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+python\_lib\_examples.shared\_memory\_example module
+----------------------------------------------------
+
+.. automodule:: python_lib_examples.shared_memory_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+python\_lib\_examples.subprocess\_example module
+------------------------------------------------
+
+.. automodule:: python_lib_examples.subprocess_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+python\_lib\_examples.xml\_example module
+-----------------------------------------
+
+.. automodule:: python_lib_examples.xml_example
    :members:
    :undoc-members:
    :show-inheritance:

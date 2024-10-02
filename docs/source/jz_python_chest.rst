@@ -33,10 +33,34 @@ jz\_python\_chest.aiohttp\_example module
    :undoc-members:
    :show-inheritance:
 
+jz\_python\_chest.cachetools\_example module
+--------------------------------------------
+
+.. automodule:: jz_python_chest.cachetools_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+jz\_python\_chest.callback\_example module
+------------------------------------------
+
+.. automodule:: jz_python_chest.callback_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 jz\_python\_chest.jsonpath\_ng\_example module
 ----------------------------------------------
 
 .. automodule:: jz_python_chest.jsonpath_ng_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+jz\_python\_chest.redis\_example module
+---------------------------------------
+
+.. automodule:: jz_python_chest.redis_example
    :members:
    :undoc-members:
    :show-inheritance:

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jz-python-chest"
-version = "0.1.6"
+version = "0.1.7"
 description = "JZ's Python Code Chest"
 authors = ["Qin (Jason) Zhou <fatestudio@gmail.com>"]
 readme = "README.md"

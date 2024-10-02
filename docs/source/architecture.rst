@@ -1,4 +1,4 @@
-source/architecture.rstarchitecture package
+architecture package
 ====================
 
 .. automodule:: architecture
